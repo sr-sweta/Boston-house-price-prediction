@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="HousePricePredictor.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>SIT Site</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        div.background {
+            background: url(images/college.jpg) repeat;
+            border: 2px solid black;
+            margin-bottom: 5px;
+        }
+
+        div.transbox {
+            margin: 30px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            opacity: 0.6;
+        }
+
+            div.transbox p {
+                margin: 5%;
+                font-weight: bold;
+                color: #000000;
+            }
+        p{
+            background-color:#CDCDCD;
+        }
+        body{
+             margin-top:0%;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div>
+            <div style="width: 100%; height: 150px; text-align: center;vertical-align: middle;justify-content:center; font-size: 32px; background-color:dodgerblue; color:blue; font-family: Georgia;">
+               <span><strong>House Price Predictor
+                </strong></span>
+            </div>
+            <table style="width: 100%; padding-top: 10px;">
+                <tr>
+                    <td colspan="3" >
+                        <nav class="navbar navbar-inverse" visible="false" style="background-color: antiquewhite; padding: 0px 4px 4px 4px; margin: 0px 1px 4px 1px;">
+                            <div class="container">
+                                <div class="collapse navbar-collapse" id="nav1">
+                                    <ul class="nav navbar-nav">
+                                        <li>About Us</li>
+                                        <li><a href="https://localhost:44364/Login.aspx">Login</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 100%; text-align:start; padding:5px 25px 5px 25px;background-color:lavenderblush;">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
