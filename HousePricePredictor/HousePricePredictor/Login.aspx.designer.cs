@@ -15,22 +15,31 @@ namespace HousePricePredictor
 	{
 
 		/// <summary>
-		/// TextBoxUsername control.
+		/// PanelLogin control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBoxUsername;
+		protected global::System.Web.UI.WebControls.Panel PanelLogin;
 
 		/// <summary>
-		/// RequiredFieldValidatorUsername control.
+		/// Label2 control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorUsername;
+		protected global::System.Web.UI.WebControls.Label Label2;
+
+		/// <summary>
+		/// TextBoxEmailId control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox TextBoxEmailId;
 
 		/// <summary>
 		/// TextBoxPassword control.
@@ -42,30 +51,12 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.TextBox TextBoxPassword;
 
 		/// <summary>
-		/// RequiredFieldValidatorPassword control.
+		/// Button1 control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorPassword;
-
-		/// <summary>
-		/// buttonCancel control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button buttonCancel;
-
-		/// <summary>
-		/// buttonSave control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button buttonSave;
+		protected global::System.Web.UI.WebControls.Button Button1;
 	}
 }

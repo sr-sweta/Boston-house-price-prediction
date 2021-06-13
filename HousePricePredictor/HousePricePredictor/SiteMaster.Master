@@ -3,7 +3,10 @@
 <!DOCTYPE html>
 
 <html>
-<head runat="server">
+<head runat="server" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <!-- jQuery library -->
@@ -11,67 +14,89 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>SIT Site</title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-    <style>
-        div.background {
-            background: url(images/college.jpg) repeat;
-            border: 2px solid black;
-            margin-bottom: 5px;
-        }
-
-        div.transbox {
-            margin: 30px;
-            background-color: #ffffff;
-            border: 1px solid black;
-            opacity: 0.6;
-        }
-
-            div.transbox p {
-                margin: 5%;
-                font-weight: bold;
-                color: #000000;
-            }
-        p{
-            background-color:#CDCDCD;
-        }
-        body{
-             margin-top:0%;
-        }
-    </style>
+    <title>Trios</title>
 </head>
 <body>
 
-    <form id="form1" runat="server">
+    <form id="FormMaster" runat="server">  
         <div>
-            <div style="width: 100%; height: 150px; text-align: center;vertical-align: middle;justify-content:center; font-size: 32px; background-color:dodgerblue; color:blue; font-family: Georgia;">
-               <span><strong>House Price Predictor
-                </strong></span>
-            </div>
             <table style="width: 100%; padding-top: 10px;">
                 <tr>
-                    <td colspan="3" >
-                        <nav class="navbar navbar-inverse" visible="false" style="background-color: antiquewhite; padding: 0px 4px 4px 4px; margin: 0px 1px 4px 1px;">
-                            <div class="container">
-                                <div class="collapse navbar-collapse" id="nav1">
-                                    <ul class="nav navbar-nav">
-                                        <li>About Us</li>
-                                        <li><a href="https://localhost:44364/Login.aspx">Login</a></li>
-                                    </ul>
-                                </div>
+                    <td>
+                      <nav class="navbar navbar-inverse" style="margin-bottom:5px;">
+                        <div class="container">
+                            <div class="navbar-header">
+
+
+                                <!-- Button Block -->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <!-- <span class="icon-bar"></span> -->
+                                </button>
+
+
+                                <a class="navbar-brand" href="#">MyWebsite</a>
                             </div>
-                        </nav>
+                            <div class="collapse navbar-collapse" id="nav1">
+                                <ul class="nav navbar-nav">
+
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Login</a></li>
+                                            <li><a href="#">Link 2</a></li>
+                                            <li><a href="#">Link 3</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="active"><a href="#">Link 1</a></li>
+                                    <li><a href="https://localhost:44330/Login.aspx">Login</a></li>
+                                    <li><a href="https://localhost:44330/SignIn.aspx">SignIn</a></li>
+                                    <li><a href="https://localhost:44330/LoginForm.aspx">LoginMain</a></li>
+                                </ul>
+
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span>RLink 1</a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-search"></span>RLink 2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                     </nav>
                     </td>
                 </tr>
                 <tr>
-                    <td style="width: 100%; text-align:start; padding:5px 25px 5px 25px;background-color:lavenderblush;">
+                    <td>
+                         <div style="width: 100%; height: 600px;padding:300px 5px 0 5px; text-align: center;vertical-align: middle;justify-content:center; font-size: 32px; background-image:url(images/house-two.jpg);background-size: 100% 100%;opacity:0.8; color:black; font-family: Georgia;display:flex;margin-top:0px;">
+                           <div class="container" style="text-align:center;">
+                               <span ><strong>House Price Predictor
+                                </strong></span>
+                                <h4 style="width:50%;margin-left:25%;text-align:center;">What makes a house, a home? A haven, a hideaway, a hive of activity. "Home" means something different to everyone. And the spaces we live in
+                                    should reflect this. Let's make yours more "you."</h4>
+                           </div>
+                         </div>
+                    </td>
+                </tr>
+             <!--   <tr>
+                    <td colspan="3" >
+						<asp:Menu ID="MenuMain" Orientation="Horizontal" runat="server">
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Login"></asp:MenuItem>
+                                <asp:MenuItem Text="About Us"></asp:MenuItem>
+                            </Items>
+						</asp:Menu>
+                    </td>
+                </tr>  -->
+                <tr>
+                    <td style="width: 100%; text-align:start; padding:5px 25px 5px 25px;">
                         <asp:ContentPlaceHolder ID="MainContent" runat="server">
                         </asp:ContentPlaceHolder>
                     </td>
                 </tr>
             </table>
-        </div>
+        </div>            
+           
     </form>
 </body>
 </html>
