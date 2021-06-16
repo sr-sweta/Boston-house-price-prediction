@@ -51,15 +51,6 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.TextBox TextBoxName;
 
 		/// <summary>
-		/// Image2 control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Image Image2;
-
-		/// <summary>
 		/// TextBoxEmailId control.
 		/// </summary>
 		/// <remarks>
@@ -69,13 +60,13 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.TextBox TextBoxEmailId;
 
 		/// <summary>
-		/// Button1 control.
+		/// ButtonSignIn control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Button1;
+		protected global::System.Web.UI.WebControls.Button ButtonSignIn;
 
 		/// <summary>
 		/// PanelDescription control.
@@ -87,22 +78,22 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.Panel PanelDescription;
 
 		/// <summary>
-		/// Label3 control.
+		/// LabelHello control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label3;
+		protected global::System.Web.UI.WebControls.Label LabelHello;
 
 		/// <summary>
-		/// Label4 control.
+		/// LabelPersonalDetail control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label4;
+		protected global::System.Web.UI.WebControls.Label LabelPersonalDetail;
 
 		/// <summary>
 		/// ImageAvatar control.
@@ -123,24 +114,6 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.Label Label5;
 
 		/// <summary>
-		/// Image1 control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Image Image1;
-
-		/// <summary>
-		/// Image3 control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Image Image3;
-
-		/// <summary>
 		/// ButtonReadMore control.
 		/// </summary>
 		/// <remarks>
@@ -148,5 +121,131 @@ namespace HousePricePredictor
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.Button ButtonReadMore;
+
+		/// <summary>
+		/// Label6 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label Label6;
+
+		/// <summary>
+		/// TextBoxDOB control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox TextBoxDOB;
+
+		/// <summary>
+		/// DropDownListCountry control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.DropDownList DropDownListCountry;
+
+		/// <summary>
+		/// LabelCountry control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label LabelCountry;
+
+		/// <summary>
+		/// LabelCity control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label LabelCity;
+
+		/// <summary>
+		/// DropDownListCity control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.DropDownList DropDownListCity;
+
+		/// <summary>
+		/// Label7 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label Label7;
+
+		/// <summary>
+		/// DropDownListPurpose control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.DropDownList DropDownListPurpose;
+
+		/// <summary>
+		/// LabelDOB control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label LabelDOB;
+
+		/// <summary>
+		/// Label8 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label Label8;
+
+		/// <summary>
+		/// Label9 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label Label9;
+
+		/// <summary>
+		/// Label10 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label Label10;
+
+		/// <summary>
+		/// TextBoxRetypePassword control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox TextBoxRetypePassword;
+
+		/// <summary>
+		/// DropDownListGender control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.DropDownList DropDownListGender;
 	}
 }

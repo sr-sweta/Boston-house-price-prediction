@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Details.aspx" />
     <Content Include="images\email.jpg" />
     <Content Include="images\house-dark.jpg" />
     <Content Include="images\house-one.jpg" />
@@ -80,6 +81,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
