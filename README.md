@@ -1,6 +1,10 @@
-# Boston house price prediction
+# House price prediction
 
-This is a hackethon project. My team is working on it. This project is based on ML and web development. Ml model will take the details of the house and land and wil provide you its price. Along with this all search that will be done through our site will be stored in the backend which will be totally build using SQL server. Using all search history in this site we can conclude what kind of land and house mostly people are willing to sell and even the quality of land can also be concluded. We are also thinking of taking details of certain user who even want to purchase land of certain kind and whose price has been predicted using our model. If both seller and buyer give their contacts to us while registration in our site then we can mail them if they are ready to buy or sell the land.
+This is a hackethon project. In this project we are planning to create a website for an imaginary Real Estate Company. In that website, there would be a section that would predict prices of houses. We would ask the user to input some features such as how much area of land he/she needs, the number of rooms he/she wants in his/her house etc.
+
+We would take those features and predict the prices of house through an ML Model, and once any user get's the predicted price of the house we would store all its values in our backend and that would be feeded to our chatbot which would then interact with the user and would give them different locations of houses for the user to buy. As well as if the user has any questions regarding the property that would be answered by the chatbot.
+
+The main aim of adding chatbot feature to our website would be to communicate with the user and convince them to buy house from our company.
 
 ## Technology used
 
