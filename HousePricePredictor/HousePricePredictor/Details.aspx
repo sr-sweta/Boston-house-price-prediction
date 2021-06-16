@@ -11,14 +11,14 @@
 		.auto-style1 {
 			margin-left: 300px;
 			margin-right: 299px;
-			margin-top: 18px;
+			margin-top: 1px;
 		}
 		.auto-style5 {
 			width: 317px;
 			height: 63px;
 			position: absolute;
 			left: 510px;
-			top: 77px;
+			top: 91px;
 			align-items:center;
 			text-align:center;
 		}
@@ -647,20 +647,54 @@
 			top: 1314px;
 			border-width: 0px;
 		}
-	</style>
+		.auto-style85 {
+			width: 101px;
+			height: 20px;
+			position: absolute;
+			left: 640px;
+			top: 149px;
+			border-width: 0px;
+		}
+		.auto-style86 {
+			width: 190px;
+			height: 25px;
+			position: absolute;
+			left: 569px;
+			top: 172px;
+			border-width: 0px;
+		}
+		.auto-style87 {
+			width: 96px;
+			height: 26px;
+			position: absolute;
+			left: 626px;
+			top: 1390px;
+		}
+		.auto-style88 {
+			height: 4px;
+			position: absolute;
+			left: 338px;
+			top: 102px;
+			z-index: 1;
+			width: 684px;
+		}
+		.auto-style89 {
+			position: absolute;
+			left: 353px;
+			top: 92px;
+			width: 4px;
+		}
+		.auto-style90 {
+			height: 1432px;
+			position: absolute;
+			left: 367px;
+			top: 94px;
+			width: 4px;
+		}
+		</style>
 	<div class="container ContainerBox" style="height: 1516px">
 
-		<asp:Panel ID="Panel1" runat="server" BackColor="SeaShell" CssClass="auto-style1" Height="1465px">
-			<!-- <asp:Panel ID="Panel2" runat="server" BackColor="AntiqueWhite" CssClass="auto-style2" Height="400px" Width="400px">
-				<asp:Panel ID="Panel3" runat="server" BackColor="SeaShell" CssClass="auto-style3" Height="200px" Width="200px">
-				</asp:Panel>
-			</asp:Panel> 
-			<asp:Panel ID="Panel4" runat="server" BackColor="AntiqueWhite" CssClass="auto-style4">
-				<asp:Panel ID="Panel5" runat="server" BackColor="SeaShell" CssClass="auto-style5" style="position: absolute; left: 200px; top: 200px; width: 200px; height: 200px">
-				</asp:Panel>
-			</asp:Panel> -->
-
-
+		<asp:Panel ID="Panel1" runat="server" BackColor="SeaShell" CssClass="auto-style1" Height="1436px" Width="684px">
 			<asp:Label ID="LabelHead" runat="server" CssClass="auto-style5" Text="">
 				<h2 style="color:salmon;font-family:Times New Roman;">Fill the details</h2>
 			</asp:Label>
@@ -780,12 +814,24 @@
 			</asp:DropDownList>
 			<asp:Label ID="LabelRefrigerator" runat="server" CssClass="auto-style83" ForeColor="Salmon" Text="Refrigerator"></asp:Label>
 			<asp:DropDownList ID="DropDownListRefrigerator" runat="server" CssClass="auto-style84" ForeColor="Salmon">
-			</asp:DropDownList>
+			</asp:DropDownList>		
 
 
+			<asp:Label ID="LabelPrice" runat="server" CssClass="auto-style85" Font-Bold="True" ForeColor="Salmon" Text="Price"></asp:Label>
+			<asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style86"></asp:TextBox>
+			<asp:Button ID="ButtonSubmit" runat="server" BackColor="Salmon" CssClass="auto-style87" ForeColor="White" Text="Submit" />
 			
-
-
+			
+			<asp:Panel ID="Panel2" runat="server" BackColor="MistyRose" CssClass="auto-style89" Height="1435px">				
+			</asp:Panel>
+			<asp:Panel ID="Panel3" runat="server" BackColor="MistyRose" CssClass="auto-style88">
+			</asp:Panel>
+			
+			
+			<asp:Panel ID="Panel4" runat="server" BackColor="MistyRose" CssClass="auto-style90">
+			</asp:Panel>
+			
+			
 		</asp:Panel>
 
 	</div>
