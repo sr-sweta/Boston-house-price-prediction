@@ -451,8 +451,8 @@
 			width: 190px;
 			height: 25px;
 			position: absolute;
-			left: 435px;
-			top: 968px;
+			left: 437px;
+			top: 977px;
 			border-width: 0px;
 		}
 		.auto-style60 {
@@ -669,6 +669,8 @@
 			position: absolute;
 			left: 626px;
 			top: 1390px;
+			border-radius:5px;
+			border-width:0px;
 		}
 		.auto-style88 {
 			height: 4px;
@@ -680,15 +682,16 @@
 		}
 		.auto-style89 {
 			position: absolute;
-			left: 353px;
+			left: 355px;
 			top: 92px;
 			width: 4px;
+			height: 1438px;
 		}
 		.auto-style90 {
-			height: 1432px;
+			height: 1437px;
 			position: absolute;
-			left: 367px;
-			top: 94px;
+			left: 362px;
+			top: 93px;
 			width: 4px;
 		}
 		</style>
@@ -777,7 +780,7 @@
 			<asp:DropDownList ID="DropDownListGasconnection" runat="server" CssClass="auto-style57" ForeColor="Salmon">
 			</asp:DropDownList>
 			<asp:Label ID="LabelAC" runat="server" CssClass="auto-style58" ForeColor="Salmon" Text="AC"></asp:Label>
-			<asp:DropDownList ID="DropDownListAC" runat="server" CssClass="auto-style59" ForeColor="Salmon" style="position: absolute; left: 437px; top: 977px; height: 25px" Width="178px">
+			<asp:DropDownList ID="DropDownListAC" runat="server" CssClass="auto-style59" ForeColor="Salmon">
 			</asp:DropDownList>
 			<asp:Label ID="LabelWifi" runat="server" CssClass="auto-style60" ForeColor="Salmon" Text="Wifi"></asp:Label>
 			<asp:DropDownList ID="DropDownListWifi" runat="server" CssClass="auto-style61" ForeColor="Salmon">
@@ -822,13 +825,13 @@
 			<asp:Button ID="ButtonSubmit" runat="server" BackColor="Salmon" CssClass="auto-style87" ForeColor="White" Text="Submit" />
 			
 			
-			<asp:Panel ID="Panel2" runat="server" BackColor="MistyRose" CssClass="auto-style89" Height="1435px">				
+			<asp:Panel ID="Panel2" runat="server" BackColor="MistyRose" CssClass="auto-style89">				
 			</asp:Panel>
 			<asp:Panel ID="Panel3" runat="server" BackColor="MistyRose" CssClass="auto-style88">
 			</asp:Panel>
 			
 			
-			<asp:Panel ID="Panel4" runat="server" BackColor="MistyRose" CssClass="auto-style90">
+			<asp:Panel ID="Panel4" runat="server" BackColor="MistyRose" CssClass="auto-style90" style="background-color: MistyRose">
 			</asp:Panel>
 			
 			
