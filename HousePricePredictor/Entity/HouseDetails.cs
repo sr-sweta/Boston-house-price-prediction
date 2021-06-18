@@ -12,8 +12,8 @@ namespace Entity
 
         private int id = -1;
         private int candidateId = -1;
-        private string location = string.Empty;
-        private string city = string.Empty;
+        private Place place;
+        private City city;
         private Int64 area = 0;
         private Int64 numberOfBeds = 0;
         private Int64 resale = 0;
@@ -61,6 +61,18 @@ namespace Entity
         {
             get { return id; }
             set { id = value; }
+        }
+
+        public Place Place
+		{
+            get { return place; }
+            set { place = value; }
+        }
+
+        public City City
+        {
+            get { return city; }
+            set { city = value; }
         }
 
         public int CandidateId
@@ -304,7 +316,7 @@ namespace Entity
         {
         }
 
-        public HouseDetails(int id, int candidateId, string location, string city, Int64 area, Int64 numberOfBeds, Int64 resale, Int64 maintenanceStaff, Int64 gymnasium, Int64 swimmingPool,
+        public HouseDetails(int id, int candidateId, Place place, City city, Int64 area, Int64 numberOfBeds, Int64 resale, Int64 maintenanceStaff, Int64 gymnasium, Int64 swimmingPool,
             Int64 landscapedGardens, Int64 rainWaterHarvesting, Int64 joggingTrack, Int64 indoorGames, Int64 shoppingMall, Int64 intercom, Int64 sportsFacility, Int64 atm, Int64 clubHouse,
             Int64 school, Int64 security, Int64 powerBackup, Int64 carParking, Int64 staffQuarter, Int64 cafeteria, Int64 multipurposeRoom, Int64 hospital, Int64 washingMachine, Int64 gasconnection,
             Int64 ac, Int64 wifi, Int64 childrensplayarea, Int64 liftAvailable, Int64 bed, Int64 vaastuCompliant, Int64 microwave, Int64 golfCourse, Int64 tv, Int64 diningTable, Int64 sofa,
@@ -312,7 +324,7 @@ namespace Entity
         {
             this.id = id;
             this.candidateId = candidateId;
-            this.location = location;
+            this.place = place;
             this.city = city;
             this.area = area;
             this.numberOfBeds = numberOfBeds;

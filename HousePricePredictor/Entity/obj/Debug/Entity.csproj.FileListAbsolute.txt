@@ -1,0 +1,6 @@
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\Entity\bin\Debug\Entity.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\Entity\bin\Debug\Entity.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\Entity\obj\Debug\Entity.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\Entity\obj\Debug\Entity.pdb
