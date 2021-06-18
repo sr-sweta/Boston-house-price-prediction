@@ -43,15 +43,15 @@
 			height: 20px;
 			position: absolute;
 			left: 704px;
-			top: 199px;
+			top: 260px;
 			border-width:0px;
 		}
 		.auto-style9 {
 			width: 190px;
 			height: 25px;
 			position: absolute;
-			left: 702px;
-			top: 227px;
+			left: 703px;
+			top: 289px;
 			border-width:0px;
 		}
 		.auto-style10 {
@@ -74,8 +74,8 @@
 			width: 97px;
 			height: 20px;
 			position: absolute;
-			left: 704px;
-			top: 259px;
+			left: 705px;
+			top: 320px;
 			border-width:0px;
 		}
 		.auto-style13 {
@@ -83,7 +83,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 283px;
+			top: 349px;
 			border-width:0px;
 		}
 		.auto-style14 {
@@ -107,7 +107,7 @@
 			height: 19px;
 			position: absolute;
 			left: 704px;
-			top: 321px;
+			top: 380px;
 			border-width:0px;
 		}
 		.auto-style17 {
@@ -115,7 +115,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 347px;
+			top: 409px;
 			border-width:0px;
 		}
 		.auto-style18 {
@@ -139,7 +139,7 @@
 			height: 21px;
 			position: absolute;
 			left: 704px;
-			top: 379px;
+			top: 435px;
 			border-width:0px;
 		}
 		.auto-style21 {
@@ -147,7 +147,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 407px;
+			top: 463px;
 			border-width:0px;
 		}
 		.auto-style22 {
@@ -171,7 +171,7 @@
 			height: 15px;
 			position: absolute;
 			left: 704px;
-			top: 435px;
+			top: 492px;
 			border-width:0px;
 		}
 		.auto-style25 {
@@ -179,7 +179,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 461px;
+			top: 516px;
 			border-width:0px;
 		}
 		.auto-style26 {
@@ -203,7 +203,7 @@
 			height: 19px;
 			position: absolute;
 			left: 704px;
-			top: 487px;
+			top: 537px;
 			border-width:0px;
 		}
 		.auto-style29 {
@@ -211,7 +211,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 515px;
+			top: 566px;
 			border-width:0px;
 		}
 		.auto-style30 {
@@ -219,7 +219,7 @@
 			height: 18px;
 			position: absolute;
 			left: 437px;
-			top: 546px;
+			top: 540px;
 			border-width:0px;
 		}
 		.auto-style31 {
@@ -235,7 +235,7 @@
 			height: 18px;
 			position: absolute;
 			left: 704px;
-			top: 541px;
+			top: 590px;
 			border-width:0px;
 		}
 		.auto-style33 {
@@ -243,7 +243,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 567px;
+			top: 620px;
 			border-width:0px;
 		}
 		.auto-style34 {
@@ -267,7 +267,7 @@
 			height: 22px;
 			position: absolute;
 			left: 704px;
-			top: 592px;
+			top: 649px;
 			border-width:0px;
 		}
 		.auto-style37 {
@@ -275,7 +275,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 617px;
+			top: 673px;
 			border-width:0px;
 		}
 		.auto-style38 {
@@ -299,7 +299,7 @@
 			height: 18px;
 			position: absolute;
 			left: 704px;
-			top: 649px;
+			top: 704px;
 			border-width:0px;
 		}
 		.auto-style41 {
@@ -307,7 +307,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 672px;
+			top: 731px;
 			border-width:0px;
 		}
 		.auto-style42 {
@@ -331,16 +331,16 @@
 			height: 21px;
 			position: absolute;
 			left: 704px;
-			top: 701px;
+			top: 765px;
 			border-width: 0px;
-			bottom: 383px;
+			bottom: 106px;
 		}
 		.auto-style45 {
 			width: 190px;
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 730px;
+			top: 791px;
 			border-width: 0px;
 		}
 		.auto-style46 {
@@ -364,7 +364,7 @@
 			height: 24px;
 			position: absolute;
 			left: 704px;
-			top: 763px;
+			top: 827px;
 			border-width: 0px;
 		}
 		.auto-style49 {
@@ -372,7 +372,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 790px;
+			top: 855px;
 			border-width: 0px;
 		}
 		.auto-style50 {
@@ -396,7 +396,7 @@
 			height: 23px;
 			position: absolute;
 			left: 704px;
-			top: 823px;
+			top: 886px;
 			border-width: 0px;
 		}
 		.auto-style53 {
@@ -404,7 +404,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 851px;
+			top: 919px;
 			border-width: 0px;
 		}
 		.auto-style54 {
@@ -428,7 +428,7 @@
 			height: 19px;
 			position: absolute;
 			left: 704px;
-			top: 883px;
+			top: 949px;
 			border-width: 0px;
 		}
 		.auto-style57 {
@@ -436,7 +436,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 916px;
+			top: 978px;
 			border-width: 0px;
 		}
 		.auto-style58 {
@@ -476,7 +476,7 @@
 			height: 22px;
 			position: absolute;
 			left: 702px;
-			top: 948px;
+			top: 1005px;
 			border-width: 0px;
 		}
 		.auto-style63 {
@@ -484,7 +484,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 980px;
+			top: 1038px;
 			border-width: 0px;
 		}		
 		.auto-style64 {
@@ -508,7 +508,7 @@
 			height: 24px;
 			position: absolute;
 			left: 702px;
-			top: 1010px;
+			top: 1068px;
 			border-width: 0px;
 		}		
 		.auto-style68 {
@@ -516,7 +516,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 1036px;
+			top: 1095px;
 			border-width: 0px;
 		}
 		.auto-style69 {
@@ -540,7 +540,7 @@
 			height: 20px;
 			position: absolute;
 			left: 702px;
-			top: 1068px;
+			top: 1123px;
 			border-width: 0px;
 		}		
 		.auto-style72 {
@@ -548,7 +548,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 1095px;
+			top: 1148px;
 			border-width: 0px;
 		}
 		.auto-style73 {
@@ -556,7 +556,7 @@
 			height: 20px;
 			position: absolute;
 			left: 702px;
-			top: 1121px;
+			top: 1176px;
 			border-width: 0px;
 		}		
 		.auto-style74 {
@@ -564,7 +564,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 1149px;
+			top: 1201px;
 			border-width: 0px;
 		}
 		.auto-style75 {
@@ -588,7 +588,7 @@
 			height: 22px;
 			position: absolute;
 			left: 702px;
-			top: 1176px;
+			top: 1232px;
 			border-width: 0px;
 		}
 		.auto-style78 {
@@ -596,7 +596,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 1201px;
+			top: 1258px;
 			border-width: 0px;
 		}
 		.auto-style79 {
@@ -620,7 +620,7 @@
 			height: 21px;
 			position: absolute;
 			left: 702px;
-			top: 1231px;
+			top: 1287px;
 			border-width: 0px;
 		}
 		.auto-style82 {
@@ -628,7 +628,7 @@
 			height: 25px;
 			position: absolute;
 			left: 702px;
-			top: 1260px;
+			top: 1312px;
 			border-width: 0px;
 		}
 		.auto-style83 {
@@ -679,6 +679,7 @@
 			top: 102px;
 			z-index: 1;
 			width: 684px;
+			border-width: 0px;
 		}
 		.auto-style89 {
 			position: absolute;
@@ -686,6 +687,7 @@
 			top: 92px;
 			width: 4px;
 			height: 1438px;
+			border-width: 0px;
 		}
 		.auto-style90 {
 			height: 1437px;
@@ -693,6 +695,23 @@
 			left: 362px;
 			top: 93px;
 			width: 4px;
+			border-width: 0px;
+		}
+		.auto-style91 {
+			width: 181px;
+			height: 17px;
+			position: absolute;
+			left: 703px;
+			top: 201px;
+			border-width: 0px;
+		}
+		.auto-style92 {
+			width: 190px;
+			height: 25px;
+			position: absolute;
+			left: 699px;
+			top: 230px;
+			border-width: 0px;
 		}
 		</style>
 	<div class="container ContainerBox" style="height: 1516px">
@@ -833,6 +852,11 @@
 			
 			<asp:Panel ID="Panel4" runat="server" BackColor="MistyRose" CssClass="auto-style90" style="background-color: MistyRose">
 			</asp:Panel>
+			
+			
+			<asp:Label ID="LabelCity" runat="server" CssClass="auto-style91" ForeColor="Salmon" Text="City"></asp:Label>
+			<asp:DropDownList ID="DropDownListCity" runat="server" CssClass="auto-style92" ForeColor="Salmon">
+			</asp:DropDownList>
 			
 			
 		</asp:Panel>
