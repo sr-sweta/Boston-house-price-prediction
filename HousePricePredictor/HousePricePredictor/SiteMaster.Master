@@ -15,6 +15,15 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Trios</title>
+	<style type="text/css">
+		.auto-style1 {
+			width: 102px;
+			height: 35px;
+			position: absolute;
+			left: 561px;
+			top: 490px;
+		}
+	</style>
 </head>
 <body>
 
@@ -74,7 +83,7 @@
                                 </strong></span>
                                 <h4 style="width:50%;margin-left:25%;text-align:center;">What makes a house, a home? A haven, a hideaway, a hive of activity. "Home" means something different to everyone. And the spaces we live in
                                     should reflect this. Let's make yours more "you."</h4>
-                               <asp:Button ID="ButtonReadMore" runat="server" Font-Size="Medium" Style="width: 102px; height: 35px; background-color: #B8B8B8; border-radius: 5px; position: absolute; left: 575px; top: 490px" Text="Read More" />
+                               <asp:Button ID="ButtonReadMore" runat="server" Font-Size="Medium" Style="background-color: #B8B8B8; border-radius: 5px; " Text="Read More" CssClass="auto-style1" />
                            </div>
                          </div>
                     </td>
@@ -90,7 +99,7 @@
                     </td>
                 </tr>  -->
                 <tr>
-                    <td style="width: 100%; text-align:start; padding:5px 25px 5px 25px;">
+                    <td style="width: 100%; text-align:center; padding:5px 25px 5px 25px;">
                         <asp:ContentPlaceHolder ID="MainContent" runat="server">
                         </asp:ContentPlaceHolder>
                     </td>

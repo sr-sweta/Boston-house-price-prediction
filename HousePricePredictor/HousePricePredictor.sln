@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HousePricePredictor", "Hous
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{D85826CA-87A7-4D24-B93C-3D6A7E2CE263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Details", "Details\Details.csproj", "{16925F43-4239-414C-A08C-640EBBCD41FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{979DA2AC-EBDB-4F40-B53D-6952AA09F0E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{D85826CA-87A7-4D24-B93C-3D6A7E2CE263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D85826CA-87A7-4D24-B93C-3D6A7E2CE263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D85826CA-87A7-4D24-B93C-3D6A7E2CE263}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16925F43-4239-414C-A08C-640EBBCD41FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16925F43-4239-414C-A08C-640EBBCD41FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16925F43-4239-414C-A08C-640EBBCD41FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16925F43-4239-414C-A08C-640EBBCD41FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979DA2AC-EBDB-4F40-B53D-6952AA09F0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979DA2AC-EBDB-4F40-B53D-6952AA09F0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979DA2AC-EBDB-4F40-B53D-6952AA09F0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979DA2AC-EBDB-4F40-B53D-6952AA09F0E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
