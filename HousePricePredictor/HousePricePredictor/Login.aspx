@@ -23,6 +23,6 @@
 		<asp:Label ID="Label2" runat="server" Font-Bold="True" style="width: 87px; height: 47px; position: absolute;color:#e75874; left: 573px; top: 750px" Font-Size="XX-Large" ForeColor="Black" Text="Login"></asp:Label>
 		<asp:TextBox ID="TextBoxEmailId" runat="server" Text="Email Id" style="width: 244px; height: 37px;color:#e75874;text-align:center; position: absolute; left: 493px; top: 825px; z-index: 1; background-color: white;border-width:0px; border-radius:5px;" TextMode="Email"></asp:TextBox>
         <asp:TextBox ID="TextBoxPassword" runat="server" Text="Password" style="width: 244px; height: 37px; color:#e75874;text-align:center; position: absolute; left: 493px; top: 900px; z-index: 1; background-color: white;border-width:0px; border-radius:5px;"></asp:TextBox>
-		<asp:Button ID="Button1" runat="server" style="z-index: 1; background-color: white;border-width:0px;border-radius:5px; position: absolute; color:#e75874; left: 574px; height: 24px; width: 79px; font-family: Arial; font-size: 11pt; top: 964px;" Text="Login" />
+		<asp:Button ID="ButtonLogin" runat="server" style="z-index: 1; background-color: white;border-width:0px;border-radius:5px; position: absolute; color:#e75874; left: 574px; height: 24px; width: 79px; font-family: Arial; font-size: 11pt; top: 964px;" Text="Login" OnClick="ButtonLogin_Click" />
 	</asp:Panel>
 </asp:Content>

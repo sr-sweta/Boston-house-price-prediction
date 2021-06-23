@@ -1,0 +1,9 @@
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\bin\Debug\DataAccess.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\bin\Debug\DataAccess.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\bin\Debug\Entity.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\bin\Debug\Entity.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\obj\Debug\DataAccess.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\DataAccess\obj\Debug\DataAccess.pdb

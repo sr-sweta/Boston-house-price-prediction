@@ -57,3 +57,9 @@ C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.csproj.CopyComplete
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.dll
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\BusinessLogic.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\Entity.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\DataAccess.dll
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\BusinessLogic.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\Entity.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\DataAccess.pdb

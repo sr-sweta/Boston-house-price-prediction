@@ -43,8 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataHelper.cs" />
+    <Compile Include="LocationData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserDatas.cs" />
+    <Compile Include="UserData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{d85826ca-87a7-4d24-b93c-3d6a7e2ce263}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

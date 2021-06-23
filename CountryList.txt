@@ -112,7 +112,7 @@ Afganistan
    Kenya
    Kiribati
    Korea North
-   Korea Sout
+   Korea South
    Kuwait
    Kyrgyzstan
    Laos
@@ -223,7 +223,7 @@ Afganistan
    Tunisia
    Turkey
    Turkmenistan
-   Turks & Caicos Is
+   Turks & Caicos Islands
    Tuvalu
    Uganda
    United Kingdom
