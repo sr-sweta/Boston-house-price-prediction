@@ -60,6 +60,15 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.TextBox TextBoxName;
 
 		/// <summary>
+		/// RequiredName control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredName;
+
+		/// <summary>
 		/// TextBoxEmail control.
 		/// </summary>
 		/// <remarks>
@@ -67,6 +76,15 @@ namespace HousePricePredictor
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.TextBox TextBoxEmail;
+
+		/// <summary>
+		/// RequiredEmail control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredEmail;
 
 		/// <summary>
 		/// PanelDescription control.
@@ -141,6 +159,15 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.TextBox TextBoxDOB;
 
 		/// <summary>
+		/// RequiredDOB control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredDOB;
+
+		/// <summary>
 		/// LabelCountry control.
 		/// </summary>
 		/// <remarks>
@@ -157,6 +184,15 @@ namespace HousePricePredictor
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.DropDownList DropDownListCountry;
+
+		/// <summary>
+		/// RequiredCountry control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredCountry;
 
 		/// <summary>
 		/// LabelCity control.
@@ -177,6 +213,15 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.DropDownList DropDownListCity;
 
 		/// <summary>
+		/// RequiredCity control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredCity;
+
+		/// <summary>
 		/// LabelPurpose control.
 		/// </summary>
 		/// <remarks>
@@ -193,6 +238,15 @@ namespace HousePricePredictor
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.DropDownList DropDownListPurpose;
+
+		/// <summary>
+		/// RequiredPurpose control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredPurpose;
 
 		/// <summary>
 		/// LabelEmail control.
@@ -256,6 +310,15 @@ namespace HousePricePredictor
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.DropDownList DropDownListGender;
+
+		/// <summary>
+		/// RequiredGender control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredGender;
 
 		/// <summary>
 		/// ButtonSignIn control.
