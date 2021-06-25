@@ -10,7 +10,7 @@ namespace Entity
 	{
 		#region Variables
 
-		private int id = -1;
+		private int id;
 		private string name = string.Empty;
 		private string gender = string.Empty;
 		private string dob = string.Empty;

@@ -14,11 +14,12 @@ namespace HousePricePredictor
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+
 		}
 
 		protected void ButtonLogin_Click(object sender, EventArgs e)
 		{
-			User user = UserLogic.ValidateUser(TextBoxEmailId.Text.Trim(), TextBoxPassword.Text.Trim());
+			User user = UserLogic.ValidateUser(TextBoxEmail.Text.Trim(), TextBoxPassword.Text.Trim());
 			if (user == null)
 			{
 
@@ -26,7 +27,7 @@ namespace HousePricePredictor
 			else
 			{
 				Session["User"] = user;
-				Response.Redirect("Details.aspx");
+				Response.Redirect("Details.aspx?Id=-1");
 			}
 		}
 	}

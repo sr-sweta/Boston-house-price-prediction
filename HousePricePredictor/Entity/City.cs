@@ -51,6 +51,17 @@ namespace Entity
 			this.country = country;
 		}
 
+		/// <summary>
+		/// Its for house details input purpose where country name in not taken as input
+		/// </summary>
+		/// <param name="id"></param>
+		/// <param name="name"></param>
+		public City(int id, string name)
+		{
+			this.id = id;
+			this.name = name;
+		}
+
 		#endregion
 
 	}

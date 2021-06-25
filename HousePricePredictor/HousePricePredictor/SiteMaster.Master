@@ -20,7 +20,7 @@
 			width: 102px;
 			height: 35px;
 			position: absolute;
-			left: 561px;
+			left: 619px;
 			top: 490px;
 		}
 	</style>
@@ -49,9 +49,7 @@
                             </div>
                             <div class="collapse navbar-collapse" id="nav1">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="https://localhost:44330/Details.aspx">Details</a></li>
                                     <li><a href="https://localhost:44330/SignIn.aspx">SignIn</a></li>
-                                    <li><a href="https://localhost:44330/LoginForm.aspx">Login</a></li>
                                 </ul>
                             </div>
                         </div>

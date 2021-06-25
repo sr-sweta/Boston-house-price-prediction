@@ -19,5 +19,15 @@ namespace BusinessLogic
         {
             return UserData.ValidateUser(email,password);
         }
+
+        public static void InsertHouseDetails(HouseDetails house, User user)
+        {
+            UserData.InsertHouseDetails(house, user);
+        }
+
+        public static HouseDetails GetHouseDetails(int detailsId)
+        {
+            return UserData.GetHouseDetails(detailsId);
+        }
     }
 }

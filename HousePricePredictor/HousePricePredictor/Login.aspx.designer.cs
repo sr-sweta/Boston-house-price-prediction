@@ -24,22 +24,31 @@ namespace HousePricePredictor
 		protected global::System.Web.UI.WebControls.Panel PanelLogin;
 
 		/// <summary>
-		/// Label2 control.
+		/// LabelLogin control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label2;
+		protected global::System.Web.UI.WebControls.Label LabelLogin;
 
 		/// <summary>
-		/// TextBoxEmailId control.
+		/// TextBoxEmail control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBoxEmailId;
+		protected global::System.Web.UI.WebControls.TextBox TextBoxEmail;
+
+		/// <summary>
+		/// RequiredEmail control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredEmail;
 
 		/// <summary>
 		/// TextBoxPassword control.
@@ -49,6 +58,15 @@ namespace HousePricePredictor
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.TextBox TextBoxPassword;
+
+		/// <summary>
+		/// RequiredPassword control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredPassword;
 
 		/// <summary>
 		/// ButtonLogin control.

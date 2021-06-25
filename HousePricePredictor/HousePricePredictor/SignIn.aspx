@@ -93,7 +93,7 @@
 
 	</style>
 	<div>
-		<asp:Panel ID="PanelSignIn" runat="server" BackColor="#e75874" ForeColor="Black" Height="805px" Style="margin-left: 220px; border-radius: 30px; margin-right: 220px; margin-bottom: 85px;" CssClass="modal-open">
+		<asp:Panel ID="PanelSignIn" runat="server" BackColor="#e75874" ForeColor="Black" Height="805px" Style="margin-left: 220px; border-radius: 30px; margin-right: 220px; margin-bottom: 85px;" CssClass="modal-open" Width="749px">
 			<asp:Label ID="LabelSignIn" runat="server" Font-Bold="True" CssClass="auto-style1" Style="width: 259px; height: 35px; position: absolute; left: 662px; text-align: center; top: 699px" Font-Size="X-Large" ForeColor="White" Text="Sign In to Trios"></asp:Label>
 			<asp:TextBox ID="TextBoxPassword" runat="server" OnTextChanged="TextBoxPassword_TextChanged" Text="Password" Style="width: 273px; left: 660px; height: 35px; color: #808080; text-align: center; position: absolute; top: 1279px; background-color: #F0F0F0; border-width: 0px; border-radius: 5px;" TextMode="Password"></asp:TextBox>
 			<asp:RequiredFieldValidator id="RequiredPassword" runat="server" ControlToValidate="TextBoxPassword" ErrorMessage="Password is required!" SetFocusOnError="True" Display="Dynamic" CssClass="auto-style4" />

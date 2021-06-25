@@ -47,6 +47,7 @@ namespace DataAccess
                 connection.Open();
 
             SqlCommand command = new SqlCommand("usp_ValidateCandidate", connection);
+            command.CommandType = System.Data.CommandType.StoredProcedure;
             command.Parameters.Add(new SqlParameter("@Email", email));
             command.Parameters.Add(new SqlParameter("@Password", password));
             SqlDataReader reader = command.ExecuteReader();
@@ -62,15 +63,15 @@ namespace DataAccess
             return user;
         }
 
-        public static void InsertHouseDetails(HouseDetails house,Place place, City city, User user)
+        public static void InsertHouseDetails(HouseDetails house, User user)
         {
             SqlCommand command = DataHelper.GetSqlCommandObject("usp_InsertHouseDetails");
             SqlParameter parameter = new SqlParameter("@Id", System.Data.SqlDbType.Int, 16);
             parameter.Direction = System.Data.ParameterDirection.Output;
             command.Parameters.Add(parameter);
             command.Parameters.Add(new SqlParameter("@CandidateId", user.Id));
-            command.Parameters.Add(new SqlParameter("@Location", place.Id));
-            command.Parameters.Add(new SqlParameter("@City", city.Id));
+            command.Parameters.Add(new SqlParameter("@Location", house.Place.Id));
+            command.Parameters.Add(new SqlParameter("@City", house.City.Id));
             command.Parameters.Add(new SqlParameter("@Area", house.Area));
             command.Parameters.Add(new SqlParameter("@NumberOfBeds", house.NumberOfBeds));
             command.Parameters.Add(new SqlParameter("@Resale", house.Resale));
@@ -110,7 +111,44 @@ namespace DataAccess
             command.Parameters.Add(new SqlParameter("@Wardrobe", house.Wardrobe));
             command.Parameters.Add(new SqlParameter("@Refrigerator", house.Refrigerator));
             command.ExecuteNonQuery();
-            user.Id = Convert.ToInt32(command.Parameters["@Id"].Value.ToString());
+            house.Id = Convert.ToInt32(command.Parameters["@Id"].Value.ToString());
+        }
+
+        public static HouseDetails GetHouseDetails(int detailsId)
+        {
+            HouseDetails houseDetails = null;
+            DataSet records = new DataSet();
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = DataHelper.GetSqlCommandObject("usp_GetHouseDetails");
+            adapter.SelectCommand.Parameters.Add(new SqlParameter("@Id", detailsId));
+            adapter.Fill(records);
+
+            if (records != null && records.Tables[0].Rows.Count > 0)
+            {
+                DataView view = new DataView(records.Tables[0]);
+                foreach (DataRow row in view.Table.Rows)
+                {
+                    City city = new City(Convert.ToInt32(row["CityId"].ToString()), row["CityName"].ToString());
+                    Place place = new Place(Convert.ToInt32(row["LocationId"].ToString()), row["LocationName"].ToString(), city);
+                    houseDetails = new HouseDetails(Convert.ToInt32(row["Id"].ToString()), Convert.ToInt32(row["CandidateId"].ToString()), place, city, Convert.ToInt64(row["Price"].ToString()),
+                                        Convert.ToInt64(row["Area"].ToString()),
+                                        Convert.ToInt64(row["NumberOfBeds"].ToString()), Convert.ToInt64(row["Resale"].ToString()), Convert.ToInt64(row["MaintenanceStaff"].ToString()),
+                                        Convert.ToInt64(row["Gymnasium"].ToString()), Convert.ToInt64(row["SwimmingPool"].ToString()), Convert.ToInt64(row["LandscapedGardens"].ToString()),
+                                        Convert.ToInt64(row["RainWaterHarvesting"].ToString()), Convert.ToInt64(row["JoggingTrack"].ToString()), Convert.ToInt64(row["IndoorGames"].ToString()),
+                                        Convert.ToInt64(row["ShoppingMall"].ToString()), Convert.ToInt64(row["Intercom"].ToString()), Convert.ToInt64(row["SportsFacility"].ToString()),
+                                        Convert.ToInt64(row["ATM"].ToString()), Convert.ToInt64(row["ClubHouse"].ToString()), Convert.ToInt64(row["School"].ToString()),
+                                        Convert.ToInt64(row["24X7Security"].ToString()), Convert.ToInt64(row["PowerBackup"].ToString()), Convert.ToInt64(row["CarParking"].ToString()),
+                                        Convert.ToInt64(row["StaffQuarter"].ToString()), Convert.ToInt64(row["Cafeteria"].ToString()), Convert.ToInt64(row["MultipurposeRoom"].ToString()),
+                                        Convert.ToInt64(row["Hospital"].ToString()), Convert.ToInt64(row["WashingMachine"].ToString()), Convert.ToInt64(row["Gasconnection"].ToString()),
+                                        Convert.ToInt64(row["AC"].ToString()),
+                                        Convert.ToInt64(row["Wifi"].ToString()), Convert.ToInt64(row["Childrensplayarea"].ToString()), Convert.ToInt64(row["LiftAvailable"].ToString()),
+                                        Convert.ToInt64(row["Bed"].ToString()), Convert.ToInt64(row["VaastuCompliant"].ToString()), Convert.ToInt64(row["Microwave"].ToString()),
+                                        Convert.ToInt64(row["GolfCourse"].ToString()), Convert.ToInt64(row["TV"].ToString()), Convert.ToInt64(row["DiningTable"].ToString()),
+                                        Convert.ToInt64(row["Sofa"].ToString()), Convert.ToInt64(row["Wardrobe"].ToString()), Convert.ToInt64(row["Refrigerator"].ToString()));
+
+                }
+            }
+            return houseDetails;
         }
     }
 }

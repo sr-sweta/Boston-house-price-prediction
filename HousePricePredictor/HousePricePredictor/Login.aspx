@@ -19,10 +19,61 @@
         </ItemTemplate>             
                
     </asp:FormView>  -->
+    <style type="text/css">
+        .auto-style2{
+            color:#e75874;
+			width: 207px;
+			height: 19px;
+			position: absolute;
+			left: 499px;
+			top: 885px;
+		}
+    	.auto-style3 {
+			width: 144px;
+			height: 35px;
+			position: absolute;
+			left: 517px;
+			top: 800px;
+			color: #e75874;
+		}
+		.auto-style4 {
+			width: 285px;
+			height: 45px;
+			position: absolute;
+			left: 534px;
+			top: 908px;
+			z-index: 1;
+		}
+    .auto-style5 {
+		width: 87px;
+		height: 47px;
+		position: absolute;
+		left: 630px;
+		top: 727px;
+	}
+	.auto-style6 {
+		width: 287px;
+		height: 45px;
+		position: absolute;
+		left: 534px;
+		top: 827px;
+		z-index: 1;
+	}
+	.auto-style7 {
+		z-index: 1;
+		position: absolute;
+		left: 631px;
+		height: 33px;
+		width: 89px;
+		top: 991px;
+	}
+    </style>
 	<asp:Panel ID="PanelLogin" runat="server" BackColor="#fbcbc9"  Height="400px" style="margin-left: 320px;border-radius:50px; margin-right: 320px">
-		<asp:Label ID="Label2" runat="server" Font-Bold="True" style="width: 87px; height: 47px; position: absolute;color:#e75874; left: 573px; top: 750px" Font-Size="XX-Large" ForeColor="Black" Text="Login"></asp:Label>
-		<asp:TextBox ID="TextBoxEmailId" runat="server" Text="Email Id" style="width: 244px; height: 37px;color:#e75874;text-align:center; position: absolute; left: 493px; top: 825px; z-index: 1; background-color: white;border-width:0px; border-radius:5px;" TextMode="Email"></asp:TextBox>
-        <asp:TextBox ID="TextBoxPassword" runat="server" Text="Password" style="width: 244px; height: 37px; color:#e75874;text-align:center; position: absolute; left: 493px; top: 900px; z-index: 1; background-color: white;border-width:0px; border-radius:5px;"></asp:TextBox>
-		<asp:Button ID="ButtonLogin" runat="server" style="z-index: 1; background-color: white;border-width:0px;border-radius:5px; position: absolute; color:#e75874; left: 574px; height: 24px; width: 79px; font-family: Arial; font-size: 11pt; top: 964px;" Text="Login" OnClick="ButtonLogin_Click" />
+		<asp:Label ID="LabelLogin" runat="server" Font-Bold="True" style="color:#e75874; " Font-Size="XX-Large" ForeColor="Black" Text="Login" CssClass="auto-style5"></asp:Label>
+		<asp:TextBox ID="TextBoxEmail" runat="server" Text="Email Id" style="color:#e75874;text-align:center; background-color: white;border-width:0px; border-radius:5px;" TextMode="Email" CssClass="auto-style6"></asp:TextBox>
+        <asp:RequiredFieldValidator id="RequiredEmail" runat="server" ControlToValidate="TextBoxEmail" ErrorMessage="Email is required!" SetFocusOnError="True" Display="Dynamic" CssClass="auto-style3" />
+        <asp:TextBox ID="TextBoxPassword" runat="server" Text="Password" style="color:#e75874;text-align:center; background-color: white;border-width:0px; border-radius:5px;" CssClass="auto-style4"></asp:TextBox>
+        <asp:RequiredFieldValidator id="RequiredPassword" runat="server" ControlToValidate="TextBoxPassword" ErrorMessage="Password is required!" SetFocusOnError="True" Display="Dynamic" CssClass="auto-style2" />
+		<asp:Button ID="ButtonLogin" runat="server" style="background-color: white;border-width:0px;border-radius:5px; color:#e75874; font-family: Arial; font-size: 11pt; " Text="Login" OnClick="ButtonLogin_Click" CssClass="auto-style7" />
 	</asp:Panel>
 </asp:Content>

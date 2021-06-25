@@ -30,6 +30,11 @@ namespace BusinessLogic
             return LocationData.GetAllPlaces(cityId);
         }
 
+        public static ArrayList GetPlaces()
+        {
+            return LocationData.GetPlaces();
+        }
+
         public static ArrayList GetCity()
         {
             return LocationData.GetCity();

@@ -34,13 +34,11 @@
                                 </button>
 
 
-                                <a class="navbar-brand" href="https://localhost:44330/Login.aspx">Home</a>
+                                <a class="navbar-brand" href="https://localhost:44330/Details.aspx?Id=-1">Details</a>
                             </div>
                             <div class="collapse navbar-collapse" id="nav1">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="https://localhost:44330/Details.aspx">Details</a></li>
-                                    <li><a href="https://localhost:44330/SignIn.aspx">SignIn</a></li>
-                                    <li><a href="https://localhost:44330/LoginForm.aspx">Login</a></li>
+                                    <li><a href="#">About</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -48,7 +46,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="width: 100%; text-align:start; padding:5px 25px 5px 25px;">
+                    <td style="width: 100%; text-align:start; padding:1px 0 5px 0;">
                         <asp:ContentPlaceHolder ID="ContentPlaceHolderSecond" runat="server">
                         </asp:ContentPlaceHolder>
                     </td>
