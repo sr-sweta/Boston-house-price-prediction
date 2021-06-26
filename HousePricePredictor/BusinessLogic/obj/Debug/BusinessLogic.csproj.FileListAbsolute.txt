@@ -4,8 +4,8 @@ C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\bin\D
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\bin\Debug\Entity.dll
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\bin\Debug\DataAccess.pdb
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\bin\Debug\Entity.pdb
-C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache

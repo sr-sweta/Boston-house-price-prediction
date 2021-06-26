@@ -70,9 +70,9 @@
     </style>
 	<asp:Panel ID="PanelLogin" runat="server" BackColor="#fbcbc9"  Height="400px" style="margin-left: 320px;border-radius:50px; margin-right: 320px">
 		<asp:Label ID="LabelLogin" runat="server" Font-Bold="True" style="color:#e75874; " Font-Size="XX-Large" ForeColor="Black" Text="Login" CssClass="auto-style5"></asp:Label>
-		<asp:TextBox ID="TextBoxEmail" runat="server" Text="Email Id" style="color:#e75874;text-align:center; background-color: white;border-width:0px; border-radius:5px;" TextMode="Email" CssClass="auto-style6"></asp:TextBox>
+		<asp:TextBox ID="TextBoxEmail" runat="server" Text="" style="color:#e75874;text-align:center; background-color: white;border-width:0px; border-radius:5px;" TextMode="Email" CssClass="auto-style6">Email Id</asp:TextBox>
         <asp:RequiredFieldValidator id="RequiredEmail" runat="server" ControlToValidate="TextBoxEmail" ErrorMessage="Email is required!" SetFocusOnError="True" Display="Dynamic" CssClass="auto-style3" />
-        <asp:TextBox ID="TextBoxPassword" runat="server" Text="Password" style="color:#e75874;text-align:center; background-color: white;border-width:0px; border-radius:5px;" CssClass="auto-style4"></asp:TextBox>
+        <asp:TextBox ID="TextBoxPassword" runat="server" Text="" style="color:#e75874;text-align:center; background-color: white;border-width:0px; border-radius:5px;" CssClass="auto-style4">Password</asp:TextBox>
         <asp:RequiredFieldValidator id="RequiredPassword" runat="server" ControlToValidate="TextBoxPassword" ErrorMessage="Password is required!" SetFocusOnError="True" Display="Dynamic" CssClass="auto-style2" />
 		<asp:Button ID="ButtonLogin" runat="server" style="background-color: white;border-width:0px;border-radius:5px; color:#e75874; font-family: Arial; font-size: 11pt; " Text="Login" OnClick="ButtonLogin_Click" CssClass="auto-style7" />
 	</asp:Panel>

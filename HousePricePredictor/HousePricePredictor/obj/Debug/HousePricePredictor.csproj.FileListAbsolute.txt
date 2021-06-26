@@ -52,7 +52,6 @@ C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\roslyn\VBCSCompiler.exe.config
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.csprojAssemblyReference.cache
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.csproj.CoreCompileInputs.cache
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.csproj.CopyComplete
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.dll
@@ -63,3 +62,4 @@ C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\BusinessLogic.pdb
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\Entity.pdb
 C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\bin\DataAccess.pdb
+C:\Sweta\Hackoverflow 2.0 (2021)\Project\HousePricePredictor\HousePricePredictor\obj\Debug\HousePricePredictor.csproj.AssemblyReference.cache

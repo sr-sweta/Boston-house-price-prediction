@@ -67,20 +67,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Details.aspx" />
     <Content Include="images\email.jpg" />
+    <Content Include="images\green.jpg" />
     <Content Include="images\house-dark.jpg" />
     <Content Include="images\house-one.jpg" />
     <Content Include="images\house-two.jpg" />
     <Content Include="images\Name.jpg" />
     <Content Include="images\password.jpg" />
     <Content Include="images\profile-avatar.jpg" />
+    <Content Include="images\S3cQns.jpg" />
+    <Content Include="images\shine.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="LoginForm.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Details.aspx.cs">
       <DependentUpon>Details.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
