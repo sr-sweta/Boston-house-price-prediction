@@ -13,101 +13,108 @@ namespace HousePricePredictor
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-			if (!IsPostBack)
+			try
 			{
-				string id = Request.QueryString["Id"].ToString();
-				HouseDetails details = id == "-1" ? new HouseDetails() : UserLogic.GetHouseDetails(Convert.ToInt32(id));
-				Session["SelectedHouseDetails"] = details;
-
-				PageHelper.BindListToDropDown(LocationLogic.GetCity(), DropDownListCity, "Name", "Id");
-				PageHelper.BindListToDropDown(LocationLogic.GetPlaces(), DropDownListLocation, "Name", "Id");
-				if (details.Id > -1)
+				if (!IsPostBack)
 				{
-					TextBoxArea.Text = Convert.ToString(details.Area);
-					TextBoxBedrooms.Text = Convert.ToString(details.NumberOfBeds);
-					TextBoxPrice.Text = Convert.ToString(details.Price);
+					string id = Request.QueryString["Id"].ToString();
+					HouseDetails details = id == "-1" ? new HouseDetails() : UserLogic.GetHouseDetails(Convert.ToInt32(id));
+					Session["SelectedHouseDetails"] = details;
 
-					#region DropDownListItems
+					PageHelper.BindListToDropDown(LocationLogic.GetCity(), DropDownListCity, "Name", "Id");
+					PageHelper.BindListToDropDown(LocationLogic.GetPlaces(), DropDownListLocation, "Name", "Id");
+					if (details.Id > -1)
+					{
+						TextBoxArea.Text = Convert.ToString(details.Area);
+						TextBoxBedrooms.Text = Convert.ToString(details.NumberOfBeds);
+						TextBoxPrice.Text = Convert.ToString(details.Price);
 
-					ListItem itemCity = DropDownListCity.Items.FindByValue(details.City.Id.ToString());
-					itemCity.Selected = true;
-					ListItem itemLocation = DropDownListLocation.Items.FindByValue(details.Place.Id.ToString());
-					itemLocation.Selected = true;
-					ListItem itemResale = DropDownListResale.Items.FindByValue(details.Resale.ToString());
-					itemResale.Selected = true;
-					ListItem itemMaintenanceStaff = DropDownListMaintenanceStaff.Items.FindByValue(details.MaintenanceStaff.ToString());
-					itemMaintenanceStaff.Selected = true;
-					ListItem itemGymnasium = DropDownListGymnasium.Items.FindByValue(details.Gymnasium.ToString());
-					itemGymnasium.Selected = true;
-					ListItem itemSwimmingPool = DropDownListSwimmingPool.Items.FindByValue(details.SwimmingPool.ToString());
-					itemSwimmingPool.Selected = true;
-					ListItem itemLandscapedGardens = DropDownListLandscapedGardens.Items.FindByValue(details.LandscapedGardens.ToString());
-					itemLandscapedGardens.Selected = true;
-					ListItem itemJoggingTrack = DropDownListJoggingTrack.Items.FindByValue(details.JoggingTrack.ToString());
-					itemJoggingTrack.Selected = true;
-					ListItem itemRainWaterHarvesting = DropDownListRainWaterHarvesting.Items.FindByValue(details.RainWaterHarvesting.ToString());
-					itemRainWaterHarvesting.Selected = true;
-					ListItem itemIndoorGames = DropDownListIndoorGames.Items.FindByValue(details.IndoorGames.ToString());
-					itemIndoorGames.Selected = true;
-					ListItem itemShoppingMall = DropDownListShoppingMall.Items.FindByValue(details.ShoppingMall.ToString());
-					itemShoppingMall.Selected = true;
-					ListItem itemIntercom = DropDownListIntercom.Items.FindByValue(details.Intercom.ToString());
-					itemIntercom.Selected = true;
-					ListItem itemSportsFacility = DropDownListSportsFacility.Items.FindByValue(details.SportsFacility.ToString());
-					itemSportsFacility.Selected = true;
-					ListItem itemATM = DropDownListATM.Items.FindByValue(details.ATM.ToString());
-					itemATM.Selected = true;
-					ListItem itemClubHouse = DropDownListClubHouse.Items.FindByValue(details.ClubHouse.ToString());
-					itemClubHouse.Selected = true;
-					ListItem itemSchool = DropDownListSchool.Items.FindByValue(details.School.ToString());
-					itemSchool.Selected = true;
-					ListItem itemSecurity = DropDownList24X7Security.Items.FindByValue(details.Security.ToString());
-					itemSecurity.Selected = true;
-					ListItem itemPowerBackup = DropDownListPowerBackup.Items.FindByValue(details.PowerBackup.ToString());
-					itemPowerBackup.Selected = true;
-					ListItem itemCarParking = DropDownListCarParking.Items.FindByValue(details.CarParking.ToString());
-					itemCarParking.Selected = true;
-					ListItem itemStaffQuarter = DropDownListStaffQuarter.Items.FindByValue(details.StaffQuarter.ToString());
-					itemStaffQuarter.Selected = true;
-					ListItem itemCafeteria = DropDownListCafeteria.Items.FindByValue(details.Cafeteria.ToString());
-					itemCafeteria.Selected = true;
-					ListItem itemMultipurposeRoom = DropDownListMultipurposeRoom.Items.FindByValue(details.MultipurposeRoom.ToString());
-					itemMultipurposeRoom.Selected = true;
-					ListItem itemHospital = DropDownListHospital.Items.FindByValue(details.Hospital.ToString());
-					itemHospital.Selected = true;
-					ListItem itemWashingMachine = DropDownListWashingMachine.Items.FindByValue(details.WashingMachine.ToString());
-					itemWashingMachine.Selected = true;
-					ListItem itemGasconnection = DropDownListGasconnection.Items.FindByValue(details.Gasconnection.ToString());
-					itemGasconnection.Selected = true;
-					ListItem itemAC = DropDownListAC.Items.FindByValue(details.AC.ToString());
-					itemAC.Selected = true;
-					ListItem itemRefrigerator = DropDownListRefrigerator.Items.FindByValue(details.Refrigerator.ToString());
-					itemRefrigerator.Selected = true;
-					ListItem itemWardrobe = DropDownListWardrobe.Items.FindByValue(details.Wardrobe.ToString());
-					itemWardrobe.Selected = true;
-					ListItem itemSofa = DropDownListSofa.Items.FindByValue(details.Sofa.ToString());
-					itemSofa.Selected = true;
-					ListItem itemDiningTable = DropDownListDiningTable.Items.FindByValue(details.DiningTable.ToString());
-					itemDiningTable.Selected = true;
-					ListItem itemTV = DropDownListTV.Items.FindByValue(details.TV.ToString());
-					itemTV.Selected = true;
-					ListItem itemGolfCourse = DropDownListGolfCourse.Items.FindByValue(details.GolfCourse.ToString());
-					itemGolfCourse.Selected = true;
-					ListItem itemMicrowave = DropDownListMicrowave.Items.FindByValue(details.Microwave.ToString());
-					itemMicrowave.Selected = true;
-					ListItem itemVaastuCompliant = DropDownListVaastuCompliant.Items.FindByValue(details.VaastuCompliant.ToString());
-					itemVaastuCompliant.Selected = true;
-					ListItem itemBed = DropDownListBED.Items.FindByValue(details.Bed.ToString());
-					itemBed.Selected = true;
-					ListItem itemLiftAvailable = DropDownListLiftAvailable.Items.FindByValue(details.LiftAvailable.ToString());
-					itemLiftAvailable.Selected = true;
-					ListItem itemChildrenplayarea = DropDownListChildrenplayarea.Items.FindByValue(details.Childrensplayarea.ToString());
-					itemChildrenplayarea.Selected = true;
-					ListItem itemWifi = DropDownListWifi.Items.FindByValue(details.Wifi.ToString());
-					itemWifi.Selected = true;
+						#region DropDownListItems
 
-					#endregion
+						ListItem itemCity = DropDownListCity.Items.FindByValue(details.City.Id.ToString());
+						itemCity.Selected = true;
+						ListItem itemLocation = DropDownListLocation.Items.FindByValue(details.Place.Id.ToString());
+						itemLocation.Selected = true;
+						ListItem itemResale = DropDownListResale.Items.FindByValue(details.Resale.ToString());
+						itemResale.Selected = true;
+						ListItem itemMaintenanceStaff = DropDownListMaintenanceStaff.Items.FindByValue(details.MaintenanceStaff.ToString());
+						itemMaintenanceStaff.Selected = true;
+						ListItem itemGymnasium = DropDownListGymnasium.Items.FindByValue(details.Gymnasium.ToString());
+						itemGymnasium.Selected = true;
+						ListItem itemSwimmingPool = DropDownListSwimmingPool.Items.FindByValue(details.SwimmingPool.ToString());
+						itemSwimmingPool.Selected = true;
+						ListItem itemLandscapedGardens = DropDownListLandscapedGardens.Items.FindByValue(details.LandscapedGardens.ToString());
+						itemLandscapedGardens.Selected = true;
+						ListItem itemJoggingTrack = DropDownListJoggingTrack.Items.FindByValue(details.JoggingTrack.ToString());
+						itemJoggingTrack.Selected = true;
+						ListItem itemRainWaterHarvesting = DropDownListRainWaterHarvesting.Items.FindByValue(details.RainWaterHarvesting.ToString());
+						itemRainWaterHarvesting.Selected = true;
+						ListItem itemIndoorGames = DropDownListIndoorGames.Items.FindByValue(details.IndoorGames.ToString());
+						itemIndoorGames.Selected = true;
+						ListItem itemShoppingMall = DropDownListShoppingMall.Items.FindByValue(details.ShoppingMall.ToString());
+						itemShoppingMall.Selected = true;
+						ListItem itemIntercom = DropDownListIntercom.Items.FindByValue(details.Intercom.ToString());
+						itemIntercom.Selected = true;
+						ListItem itemSportsFacility = DropDownListSportsFacility.Items.FindByValue(details.SportsFacility.ToString());
+						itemSportsFacility.Selected = true;
+						ListItem itemATM = DropDownListATM.Items.FindByValue(details.ATM.ToString());
+						itemATM.Selected = true;
+						ListItem itemClubHouse = DropDownListClubHouse.Items.FindByValue(details.ClubHouse.ToString());
+						itemClubHouse.Selected = true;
+						ListItem itemSchool = DropDownListSchool.Items.FindByValue(details.School.ToString());
+						itemSchool.Selected = true;
+						ListItem itemSecurity = DropDownList24X7Security.Items.FindByValue(details.Security.ToString());
+						itemSecurity.Selected = true;
+						ListItem itemPowerBackup = DropDownListPowerBackup.Items.FindByValue(details.PowerBackup.ToString());
+						itemPowerBackup.Selected = true;
+						ListItem itemCarParking = DropDownListCarParking.Items.FindByValue(details.CarParking.ToString());
+						itemCarParking.Selected = true;
+						ListItem itemStaffQuarter = DropDownListStaffQuarter.Items.FindByValue(details.StaffQuarter.ToString());
+						itemStaffQuarter.Selected = true;
+						ListItem itemCafeteria = DropDownListCafeteria.Items.FindByValue(details.Cafeteria.ToString());
+						itemCafeteria.Selected = true;
+						ListItem itemMultipurposeRoom = DropDownListMultipurposeRoom.Items.FindByValue(details.MultipurposeRoom.ToString());
+						itemMultipurposeRoom.Selected = true;
+						ListItem itemHospital = DropDownListHospital.Items.FindByValue(details.Hospital.ToString());
+						itemHospital.Selected = true;
+						ListItem itemWashingMachine = DropDownListWashingMachine.Items.FindByValue(details.WashingMachine.ToString());
+						itemWashingMachine.Selected = true;
+						ListItem itemGasconnection = DropDownListGasconnection.Items.FindByValue(details.Gasconnection.ToString());
+						itemGasconnection.Selected = true;
+						ListItem itemAC = DropDownListAC.Items.FindByValue(details.AC.ToString());
+						itemAC.Selected = true;
+						ListItem itemRefrigerator = DropDownListRefrigerator.Items.FindByValue(details.Refrigerator.ToString());
+						itemRefrigerator.Selected = true;
+						ListItem itemWardrobe = DropDownListWardrobe.Items.FindByValue(details.Wardrobe.ToString());
+						itemWardrobe.Selected = true;
+						ListItem itemSofa = DropDownListSofa.Items.FindByValue(details.Sofa.ToString());
+						itemSofa.Selected = true;
+						ListItem itemDiningTable = DropDownListDiningTable.Items.FindByValue(details.DiningTable.ToString());
+						itemDiningTable.Selected = true;
+						ListItem itemTV = DropDownListTV.Items.FindByValue(details.TV.ToString());
+						itemTV.Selected = true;
+						ListItem itemGolfCourse = DropDownListGolfCourse.Items.FindByValue(details.GolfCourse.ToString());
+						itemGolfCourse.Selected = true;
+						ListItem itemMicrowave = DropDownListMicrowave.Items.FindByValue(details.Microwave.ToString());
+						itemMicrowave.Selected = true;
+						ListItem itemVaastuCompliant = DropDownListVaastuCompliant.Items.FindByValue(details.VaastuCompliant.ToString());
+						itemVaastuCompliant.Selected = true;
+						ListItem itemBed = DropDownListBED.Items.FindByValue(details.Bed.ToString());
+						itemBed.Selected = true;
+						ListItem itemLiftAvailable = DropDownListLiftAvailable.Items.FindByValue(details.LiftAvailable.ToString());
+						itemLiftAvailable.Selected = true;
+						ListItem itemChildrenplayarea = DropDownListChildrenplayarea.Items.FindByValue(details.Childrensplayarea.ToString());
+						itemChildrenplayarea.Selected = true;
+						ListItem itemWifi = DropDownListWifi.Items.FindByValue(details.Wifi.ToString());
+						itemWifi.Selected = true;
+
+						#endregion
+					}
 				}
+			}
+			catch (Exception)
+			{
+				Response.Redirect("Details.aspx?Id=-1");
 			}
 		}
 

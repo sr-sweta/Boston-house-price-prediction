@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Details.aspx.cs" MasterPageFile="~/OtherMaster.Master" Inherits="HousePricePredictor.Details" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolderSecond" ID="UserLoginForm">
+
+	<!-- #region Style -->	
 	<style type="text/css">
 		.ContainerBox {
 			margin-top: 30px;
@@ -714,6 +716,7 @@
 			border-width: 0px;
 		}
 		</style>
+	<!-- #endregion -->
 	<div class="container ContainerBox" style="height: 1516px">
 
 		<asp:Panel ID="Panel1" runat="server" BackColor="SeaShell" CssClass="auto-style1" Height="1436px" Width="684px">

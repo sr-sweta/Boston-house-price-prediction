@@ -2,10 +2,10 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="ContentPlaceHolderSecond" ID="UserSignIn">
 	<style type="text/css">
-    body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0 0 0;
-    }
+	    body {
+	        font-family: Arial, Helvetica, sans-serif;
+	        margin: 0;
+	    }
      #wrap > #about-section {
         padding-top: 60px;
 
@@ -82,32 +82,32 @@
 		.auto-style3 {
 			width: 349px;
 		}
-    	.auto-style4 {
-			border-style: none;
-			border-color: inherit;
-			border-width: medium;
-			outline: 0;
-			display: inline-block;
-			padding: 8px;
-			color: white;
-			background-color: #000;
-			text-align: center;
-			cursor: pointer;
-			width: 113%;
-		}
-		.auto-style5 {
-			border-style: none;
-			border-color: inherit;
-			border-width: medium;
-			outline: 0;
-			display: inline-block;
-			padding: 8px;
-			color: white;
-			background-color: #000;
-			text-align: center;
-			cursor: pointer;
-			width: 117%;
-		}
+    .auto-style4 {
+		border-style: none;
+		border-color: inherit;
+		border-width: medium;
+		outline: 0;
+		display: inline-block;
+		padding: 8px;
+		color: white;
+		background-color: #000;
+		text-align: center;
+		cursor: pointer;
+		width: 113%;
+	}
+	.auto-style5 {
+		border-style: none;
+		border-color: inherit;
+		border-width: medium;
+		outline: 0;
+		display: inline-block;
+		padding: 8px;
+		color: white;
+		background-color: #000;
+		text-align: center;
+		cursor: pointer;
+		width: 117%;
+	}
     </style>
       <div class="about-section">
         <h1>About Trios Project</h1>

@@ -37,6 +37,7 @@
                             <div class="collapse navbar-collapse" id="nav1">
                                 <ul class="nav navbar-nav">
                                     <li><a href="https://localhost:44330/Login.aspx">SignOut</a></li>
+                                    <li><a href="https://localhost:44330/Details.aspx?id=-1">Details</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,7 +55,7 @@
            
     </form>
     <footer style="text-align:center;margin-bottom:0px; padding-right:5px; background-color:#708090;">
-          <strong>&copy; Copyright 2021</strong>
+          <strong>&copy; Copyright 2022</strong>
     </footer>
 
     <!-- AOS Data -->

@@ -91,7 +91,7 @@
         </div>            
     </form>
     <footer style="text-align:center;margin-bottom:0px; padding-right:5px; background-color:#708090;" >
-          <strong>&copy; Copyright 2021</strong>
+          <strong>&copy; Copyright 2022</strong>
     </footer>
     <!-- AOS Data -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
